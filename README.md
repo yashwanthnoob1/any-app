@@ -97,6 +97,10 @@ npm install
 npm run dev
 ```
 
+### Static Frontend Prototype
+
+For a quick preview of the user interface, simply open `index.html` in your browser. This static page lists example markets and demonstrates basic styling.
+
 To deploy contracts:
 
 ```bash
