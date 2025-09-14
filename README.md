@@ -1,7 +1,3 @@
-
-
----
-
 # Prediction Market Site
 
 ## Overview
@@ -118,5 +114,3 @@ npx hardhat deploy --network <network>
 ## License
 
 MIT License – free for community use and contribution.
-
-
