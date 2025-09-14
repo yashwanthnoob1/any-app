@@ -118,6 +118,13 @@ npx hardhat deploy --network <network>
 
 ---
 
+## Contributing
+
+Contributions are welcome! Feel free to open issues or submit pull requests to
+improve the project.
+
+---
+
 ## License
 
 MIT License – free for community use and contribution.
