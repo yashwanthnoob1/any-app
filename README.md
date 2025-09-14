@@ -93,8 +93,11 @@ cd prediction-market
 # Install dependencies
 npm install
 
-# Start development server
-npm run dev
+# Start the API server
+npm start
+
+# In another terminal, fetch markets
+curl http://localhost:3000/markets
 ```
 
 To deploy contracts:
