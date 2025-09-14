@@ -1,0 +1,57 @@
+:root {
+  --primary: #2b6cb0;
+  --bg: #f7fafc;
+  --text: #2d3748;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background: var(--bg);
+  color: var(--text);
+  margin: 0;
+}
+
+header {
+  background: var(--primary);
+  color: #fff;
+  padding: 1rem;
+  text-align: center;
+}
+
+#market-list {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+  gap: 1rem;
+  padding: 1rem;
+}
+
+.market-card {
+  background: #fff;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  padding: 1rem;
+}
+
+.market-card h2 {
+  font-size: 1.1rem;
+  margin-top: 0;
+}
+
+.market-card .prices {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 0.5rem;
+}
+
+.market-card .volume {
+  margin-top: 0.5rem;
+  font-size: 0.9rem;
+  color: #4a5568;
+}
+
+footer {
+  text-align: center;
+  padding: 1rem;
+  font-size: 0.9rem;
+  color: #718096;
+}
